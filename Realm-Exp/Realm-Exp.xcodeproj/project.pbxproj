@@ -139,7 +139,6 @@
 				8F0AFC8620BD77DE00DA3522 /* Sources */,
 				8F0AFC8720BD77DE00DA3522 /* Frameworks */,
 				8F0AFC8820BD77DE00DA3522 /* Resources */,
-				165C5896666C373A552AADBA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -230,26 +229,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		165C5896666C373A552AADBA /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-Realm-Exp/Pods-Realm-Exp-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
-				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Realm-Exp/Pods-Realm-Exp-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		FA0031A21F0D533FB2CAEA6D /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
