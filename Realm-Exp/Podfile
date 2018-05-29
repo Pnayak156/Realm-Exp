@@ -6,7 +6,6 @@ target 'Realm-Exp' do
   use_frameworks!
 
   # Pods for Realm-Exp
-  pod 'RealmSwift'
   target 'Realm-ExpTests' do
     inherit! :search_paths
     # Pods for testing
